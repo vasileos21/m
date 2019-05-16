@@ -1,0 +1,52 @@
+{
+	"title": "test1",
+	"puncteDinOficiu": 1,
+	"gradDificultate": 1,
+	"data": [
+		{
+			"q": "Intrebarea 1 - ",
+			"r": [
+				1
+			],
+			"v": [
+				"Varianta 1 Lorem Ipsum is simply dummy text",
+				"Varianta 2 Lorem Ipsum is simply dummy text",
+				"Varianta 3 Lorem Ipsum is simply dummy text"
+			]
+		},
+		{
+			"q": "Intrebarea 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"r": [
+				2,
+				3
+			],
+			"v": [
+				"Varianta 1 Lorem Ipsum is simply dummy text",
+				"Varianta 2 Lorem Ipsum is simply dummy text",
+				"Varianta 3 Lorem Ipsum is simply dummy text"
+			]
+		},
+		{
+			"q": "Intrebarea 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"r": [
+				3
+			],
+			"v": [
+				"Varianta 1 Lorem Ipsum is simply dummy text",
+				"Varianta 2 Lorem Ipsum is simply dummy text",
+				"Varianta 3 Lorem Ipsum is simply dummy text"
+			]
+		},
+		{
+			"q": "Intrebarea 4 - Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"r": [
+				2
+			],
+			"v": [
+				"Varianta 1 Lorem Ipsum is simply dummy text",
+				"Varianta 2 Lorem Ipsum is simply dummy text",
+				"Varianta 3 Lorem Ipsum is simply dummy text"
+			]
+		}
+	]
+}

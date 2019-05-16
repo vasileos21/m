@@ -1,0 +1,27 @@
+<div>
+    <h1>Testarea cunostintelor</h1>
+    <div class="q-title">
+        <div id="test-title"></div>
+        <div id="puncte-din-oficiu"></div>
+        <div id="grad-dificultate"></div>
+    </div>
+    <ul id="q-test"></ul>
+    <div id="control-panel">
+        <div class="qtest">Test inca ne-evaluat</div>
+        <button class="qtest" id="reset-qtest">Reseteaza</button>
+        <button class="qtest" id="reveal-qtest">Afiseaza solutia</button>
+        <button class="qtest" id="evaluate-qtest">Evalueaza</button>
+    </div>
+    <script>
+        testLoader('test1', qData => {
+            const target = $('ul#q-test')
+            $('div#test-title').text(`Titlul testului: ${qData['title']}`)
+            $('div#puncte-din-oficiu').text(`Puncte din oficiu: ${qData['puncteDinOficiu']}`)
+            $('div#grad-dificultate').text(`Grad de dificultate: ${qData['gradDificultate']}`)
+            generateQSet(target, qData['data'])
+            setResetListener(target, qData['data'])
+            setEvaluateListener(qData['data'])
+            setRevealListener(qData['data'])
+        })
+    </script>
+</div>
